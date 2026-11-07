@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "autozmianka",
+  "version": "${version}",
+  "name": "Auto Zmianka",
+  "description": "Automatycznie losuje zmianki w menu serwera, az trafi wybrany procent.",
+  "authors": ["Ty"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.autozmianka.AutoZmiankaClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
