@@ -1,0 +1,2 @@
+# autozmianka-klient
+my game
