@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "autozmianka",
+  "id": "pvplist",
   "version": "${version}",
-  "name": "Auto Zmianka",
-  "description": "Automatycznie losuje zmianki w menu serwera, az trafi wybrany procent.",
+  "name": "PvP List",
+  "description": "Blacklista graczy, ktorzy Cie zabili, lista killi, licznik fragow z godziny i tracery.",
   "authors": ["Ty"],
   "license": "MIT",
   "environment": "client",
   "entrypoints": {
-    "client": ["pl.autozmianka.AutoZmiankaClient"]
+    "client": ["pl.pvplist.PvpListClient"]
   },
   "depends": {
     "fabricloader": ">=0.16.0",
